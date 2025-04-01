@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s06c62n",
+  "description": "https://scrimba.com/learn-javascript-c0v/~06kw/s0qnc5r9kf/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

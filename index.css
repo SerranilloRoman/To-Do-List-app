@@ -1,0 +1,90 @@
+body {
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 302px;
+}
+
+label {
+    color: blueviolet;
+    font-weight: 900;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid blueviolet;
+    margin-bottom: 4px;
+}
+
+button {
+    background: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid blueviolet;
+    font-weight: bold;
+}
+
+#delete-btn {
+    background: white;
+    color: blueviolet;
+}
+
+h1{
+    color: blueviolet;
+    padding: 0px;
+    margin:  0px;
+    margin-bottom:  10px;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+a {
+    color: blueviolet;
+}
+
+/* Reset de estilos de lista */
+/* Estilo para la lista (elimina márgenes por defecto) */
+ul {
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none; /* Elimina los bullets */
+}
+
+/* Contenedor de cada item (flexbox para alinear texto + checkbox) */
+.lead-item {
+    display: flex;
+    justify-content: space-between; /* Separa texto y checkbox */
+    align-items: center; /* Centra verticalmente */
+    margin-bottom: 8px; /* Espacio entre items */
+    padding: 5px 0; /* Pequeño padding vertical */
+}
+
+/* Label ocupa todo el espacio disponible */
+.lead-label {
+    display: flex;
+    justify-content: space-between; /* Texto a la izquierda, checkbox a la derecha */
+    align-items: center; /* Centrado vertical */
+    width: 100%; /* Ocupa todo el ancho del <li> */
+    cursor: pointer; /* Manita al pasar el mouse */
+}
+
+/* Checkbox a la derecha (sin afectar el texto) */
+.lead-label input[type="checkbox"] {
+    order: 2; /* Mueve el checkbox al final (derecha) */
+    margin-left: 10px; /* Espacio entre texto y checkbox */
+}
+
